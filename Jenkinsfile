@@ -12,7 +12,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 git branch: 'main',
-                    url: 'https://github.com/piyushgarg949-commits/terraform-docker-jenkins-project.git'
+                    url: 'https://github.com/piyushgarg362-commits/terraform-docker-jenkins-project.git'
             }
         }
 
