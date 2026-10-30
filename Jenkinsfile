@@ -47,7 +47,7 @@ pipeline {
 
         stage('Deploy to AWS EC2') {
             steps {
-                sshagent(credentials: ['app-ssh-key']) {
+                sshagent(credentials: ['app-ssh-key-new']) {
                     sh '''
                         ssh -o StrictHostKeyChecking=accept-new \
                           ubuntu@$APP_HOST \
