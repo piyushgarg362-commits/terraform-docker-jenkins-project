@@ -1,0 +1,9 @@
+{
+  "name": "devops-webapp",
+  "version": "1.0.0",
+  "description": "Terraform Docker Jenkins demo",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  }
+}
